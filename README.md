@@ -10,4 +10,12 @@ git remote add origin https://github.com/MathRober/learning_go.git
 git push -u origin main
 git config -l
 git remote set-url origin https://MathRober@github.com/MathRober/learning_go.git
-git remote set-url origin https://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@github.com/MathRober/learning_go.git
+git remote set-url origin https://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@github.com/MathRober/learning_go.git
+
+
+docker-compose up -d 
+docker exec -it learning_go sh
+
+go mod init github.com/mathrober/learning_go
+go get -u github.com/gin-gonic/gin
+go run .

@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+  "github.com/MathRober/learning_go/config"
+)
 
 func main() {
-    fmt.Println("hello world!aa")
+  config.Server()
 }
